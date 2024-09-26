@@ -1,0 +1,51 @@
+.date-picker-container {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: #4f46e5; /* Indigo color */
+  margin-bottom: 1rem;
+}
+
+.date-input {
+  margin-bottom: 1rem;
+}
+
+.date-input label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.date-input input,
+.date-input select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+body {
+  background: linear-gradient(to right, #f0f4ff, #d9e2ff);
+  font-family: Arial, sans-serif; /* Setting a default font */
+}
+
+.date-input input:focus,
+.date-input select:focus {
+  border-color: #4f46e5; /* Indigo color */
+  outline: none;
+}
+
+.recurrence-details {
+  background-color: #f7fafc; /* Light gray background */
+  padding: 1rem;
+  border-radius: 4px;
+  margin-top: 1rem;
+}
